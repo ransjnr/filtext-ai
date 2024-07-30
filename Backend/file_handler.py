@@ -1,6 +1,6 @@
 import os
 import mimetypes
-import fitz  # PyMuPDF
+import fitz 
 from docx import Document
 from io import BytesIO
 
