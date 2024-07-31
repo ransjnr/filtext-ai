@@ -17,14 +17,13 @@ const Profile = () => {
     <div className='profile'>
       <ProfileHeader />
       <div className="filters">
-        <h3>Filters</h3>
         <Select 
           options={options} 
           isMulti 
           className="dropdown" 
           placeholder="Select options..."
         />
-        <div className="checkbox-menu">
+        {/* <div className="checkbox-menu">
           <label>
             <input type="checkbox" /> Option A
           </label>
@@ -34,7 +33,7 @@ const Profile = () => {
           <label>
             <input type="checkbox" /> Option C
           </label>
-        </div>
+        </div> */}
       </div>
       {/* <div className='user-profile'>
         <div className='user-courses'>

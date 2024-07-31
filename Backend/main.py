@@ -190,7 +190,7 @@ async def extract_info():
 
         clean_data_dict = clean_data(df_output.to_dict(orient='records'))
         # Return the extracted text along with cleaned data
-        return (df_sc_name, df_get_email, df_sc_org)
+        return (df_sc_name)
         return clean_data_dict
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
