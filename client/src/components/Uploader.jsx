@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import { MdCloudUpload, MdDelete } from 'react-icons/md';
 import { AiFillFileImage } from 'react-icons/ai';
-
+//upload
 const Upload = () => {
     const [image, setImage] = useState(null);
     const [fileName, setFileName] = useState("No selected file");
