@@ -3,7 +3,7 @@ import { ReactTyped } from 'react-typed'
 
 const Hero = () => {
     const handleClick = () => {
-        window.location.href = "https://google.com"; // Redirect to Google
+        window.location.href = "https://extract-filtext.vercel.app/"; // Redirect to Google
       };
     
   return (
